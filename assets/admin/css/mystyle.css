@@ -1,0 +1,396 @@
+        table img{
+            width: 100px;
+        }
+        .table thead tr th {
+            text-align: center;
+        }
+        
+        .operate span {
+            margin-right: 10px;
+        }
+        
+        .first_part {
+            margin-bottom: 20px;
+        }
+        
+        .table input {
+            text-align: center;
+        }
+        
+        .info_part {
+            margin-top: 20px;
+            padding-left: 40px;
+        }
+        
+        .info_part label {
+            float: left;
+            line-height: 30px;
+            width: 70px;
+            word-spacing: 20px;
+        }
+        
+        .info_part input {
+            height: 30px;
+            width: 260px;
+            padding: 0 5px;
+        }
+        
+        .copy_line {
+            display: none;
+        }
+        
+        .nowarp td,
+        .nowarp th {
+            white-space: nowrap;
+        }
+        
+        .nowarp td:nth-child(3) {
+            white-space: normal;
+        }
+        
+        .fen {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .li:hover {
+            background-color: #1ab394;
+            color: white;
+        }
+        
+        .li {
+            float: left;
+            line-height: 34px;
+            width: 95px;
+            display: inline-block;
+            margin-right: 10px;
+            cursor: pointer;
+            text-align: center;
+            border: 1px solid #23527c;
+            border-radius: 0.1cm;
+            color: black;
+            font-size: 14px;
+        }
+        
+        .onli {
+            float: left;
+            width: 95px;
+            text-align: center;
+            display: inline-block;
+            background-color: #1ab394;
+            color: white;
+            line-height: 34px;
+            border-radius: 0.1cm;
+            margin-right: 10px;
+            cursor: pointer;
+            border: 1px solid #1ab394;
+            font-size: 14px;
+        }
+        
+        .fenlei {
+            border: none;
+            outline: none;
+            background-color: transparent;
+            line-height: 0px;
+        }
+        
+        .but {
+            color: white;
+            background-color: #18a689;
+            padding: 4px 6px;
+            border-radius: 0.1cm;
+        }
+        
+        .lineli {
+            width: 90%;
+            padding: 0 10px;
+            background-color: #f3f3f4;
+            margin: 15px auto 0;
+            border-radius: 0.1cm;
+            list-style-type: none;
+            cursor: pointer;
+        }
+        
+        .onlineli {
+            margin: 15px auto 0;
+            border: 1px solid #18a689;
+            width: 90%;
+            padding: 0 10px;
+            background-color: #f3f3f4;
+            border-radius: 0.1cm;
+            list-style-type: none;
+            cursor: pointer;
+        }
+        
+        .cats {
+            padding: 0;
+        }
+        
+        #bonus_rate,
+        #fixed_salary {
+            display: none;
+        }
+        
+        .branchcompany {
+            cursor: pointer;
+        }
+        
+        .number {
+            margin: 0 20px;
+        }
+        
+        .choose_rules {
+            list-style: none;
+            padding-left: 20px;
+        }
+        
+        .choose_rules li {
+            line-height: 30px;
+        }
+        
+        .center tr td:first-child {
+            text-align: center;
+        }
+        
+        .center tr td:first-child input {
+            cursor: pointer;
+        }
+        
+        .first_category {
+            display: block;
+            margin: 5px 0;
+            padding: 5px 10px;
+            text-decoration: none;
+            border: 1px solid #ebebeb;
+            background: #fff;
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+            height: 40px;
+            line-height: 30px;
+            width: 100%;
+            float: right;
+        }
+        
+        .second_category {
+            margin: 5px 0;
+            padding: 5px 10px;
+            text-decoration: none;
+            border: 1px solid #ebebeb;
+            background: #fff;
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+            height: 40px;
+            line-height: 30px;
+            width: 95%;
+            margin-left: 30px;
+            float: right;
+        }
+        
+        .third_category {
+            margin: 5px 0;
+            padding: 5px 10px;
+            text-decoration: none;
+            border: 1px solid #ebebeb;
+            background: #fff;
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+            height: 40px;
+            line-height: 30px;
+            width: 90%;
+            float: right;
+        }
+        
+        .fourth_category {
+            margin: 5px 0;
+            padding: 5px 10px;
+            text-decoration: none;
+            border: 1px solid #ebebeb;
+            background: #fff;
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+            height: 40px;
+            line-height: 30px;
+            width: 85%;
+            float: right;
+        }
+        
+        .fifth_category {
+            margin: 5px 0;
+            padding: 5px 10px;
+            text-decoration: none;
+            border: 1px solid #ebebeb;
+            background: #fff;
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+            height: 40px;
+            line-height: 30px;
+            width: 80%;
+            float: right;
+        }
+        
+        /*.open {*/
+            /*cursor: pointer;*/
+            /*width: 14px;*/
+            /*height: 14px;*/
+            /*margin-right: 5px;*/
+        /*}*/
+        
+        .add_btn img {
+            width: 12px;
+            height: 12px;
+        }
+        
+        .change_btn img {
+            width: 14px;
+            height: 14px;
+            margin-left: 10px;
+        }
+        
+        .delete_btn img {
+            width: 14px;
+            height: 14px;
+            margin: 0 5px 0 10px;
+        }
+        
+        .right {
+            float: right;
+        }
+        
+        .left {
+            float: left;
+        }
+        
+        .ruletable ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .ruletable ul li {
+            margin-bottom: 10px;
+        }
+        
+        .ruletable ul li:last-child {
+            margin-bottom: 0;
+        }
+        
+        .ruletable input {
+            width: 80px;
+        }
+        
+        .ruletable .col-sm-5 {
+            text-align: right;
+            padding: 0;
+        }
+        
+        .ruletable .col-sm-5 {
+            line-height: 24px;
+        }
+        
+        .ruletable .col-sm-7 {
+            padding: 0;
+        }
+        
+        .ruletable .col-sm-7 input {
+            float: left;
+        }
+        
+        .navbar-static-top {
+            margin-bottom: 0;
+            position: fixed;
+            width: 100%;
+        }
+        
+        .page-heading {
+            position: fixed;
+            width: 100%;
+            z-index: 10;
+            margin-top: 58px;
+        }
+        
+        .wrapper-content {
+            margin-top: 155px;
+        }
+        
+        .navbar-static-side {
+            position: fixed;
+        }
+        .awidth {
+            width: 140px;
+        }
+
+        .bwidth {
+            width: 220px;
+        }
+
+        .cwidth {
+            width: 400px;
+        }
+        .form-group>span {
+            width: 68px;
+            line-height: 34px;
+        }
+        .pic_upload {
+            background-color: #f6f6f6;
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            width: 80px;
+            line-height: 34px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .upload {
+            display: inline-block;
+            position: relative;
+        }
+        .pic_box {
+            width: 80px;
+            height: 80px;
+            border: 1px solid #e5e6e7;
+            position: relative;
+            line-height: 80px;
+            overflow: hidden;
+            text-align: center;
+        }
+        .pic_box img{
+            width: 100%;
+        }
+        .upload input {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            cursor: pointer;
+            font-size: 0;
+        }
+        .edit_info label {
+            font-weight: normal;
+            cursor: pointer;
+            margin: 0 10px 0 2px;
+        }
+        .partbox {
+            box-shadow: 0px 5px 4px 2px #e4e4e4;
+            border-radius: 3px;
+            padding: 20px 30px;
+            margin-bottom: 30px;
+            position: relative;
+        }
+        .leftpart {
+            float: left;
+            width: 50%;
+            padding: 0 15px;
+        }
+        .rightpart {
+            float: left;
+            width: 50%;
+            padding: 0 15px;
+        }
+        .partlabel {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50px;
+            height: 50px;
+        }

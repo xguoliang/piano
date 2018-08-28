@@ -1,0 +1,75 @@
+.category{
+    margin-top: 0.15rem;
+    background-color: #fff;
+}
+.category_head{
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: .32rem;
+    font-weight: bold;
+    margin:0 0.2rem;
+    padding:0 0.2rem;
+    border-left: 4px solid #fe4854;
+}
+.category .scgl-section {
+    width: 94%;
+    margin: 3% auto;
+    /*background:green;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.category .scgl-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 3.45rem;
+    position: relative;
+
+}
+
+.category .scgl-box div {
+    width: 0.5rem;
+    height: 0.5rem;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0.1rem;
+}
+
+
+.category .scgl-box h5 {
+    font-size: 0.3rem;
+    color: #444444;
+    width: 3.45rem;
+    text-align: justify;
+    margin-top: 0.2rem;
+    margin-bottom: 0.1rem;
+}
+
+.category .scgl-box p {
+    font-size: 0.3rem;
+    color: #fc453c;
+    padding-top: 0.1rem;
+    padding-bottom: 0.2rem;
+
+}
+
+.category .scgl-box p span {
+    color: #9d9d9d;
+    font-size: 0.24rem;
+    text-decoration: line-through;
+    padding-left: 0.2rem;
+}
+
+.category .scgl-box i {
+    width: 3.45rem;
+    height: 3.45rem;
+    display: flex;
+}
+
+.category .scgl-box i img {
+    width: 100%;
+}

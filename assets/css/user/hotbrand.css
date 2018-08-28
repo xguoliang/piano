@@ -1,0 +1,24 @@
+.hotbrand{
+    margin-top: 0.15rem;
+    background-color: #fff;
+}
+.hotbrand_head{
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: .36rem;
+    font-weight: bold;
+    padding:0 0.2rem;
+}
+.hotbrand_head img{
+    width: 0.4rem;
+    margin-right: 0.2rem;
+    vertical-align:-0.05rem;
+}
+.hotbrand_list{
+    margin:0 0.2rem;
+    overflow: hidden;
+    padding: 0.2rem 0;
+}
+.hotbrand_list .swiper-slide {
+    text-align: center;
+}

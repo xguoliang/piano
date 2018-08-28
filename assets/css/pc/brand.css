@@ -1,0 +1,53 @@
+/* 品牌 */
+.brand{
+    width: 1200px;
+    margin:0 auto;
+    margin-top: 30px;
+}
+.brand .cate_title{
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.brand  .cate_title i{
+    font-size: 50px;
+    color: #fe4854;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.brand  .cate_title .cate_t{
+    font-size: 24px;
+    color:#444;
+}
+.brand .cate_more{
+    float: right;
+    font-size: 14px;
+    color: #444;
+    margin-top: 10px;
+}
+.brand_img{
+    position: relative;
+}
+.brand .swiper-slide img{
+    width: 100%;
+}
+.brand_prev,
+.brand_next{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 20px;
+    height: 40px;
+    margin-top: -20px;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.brand_next{
+    left: auto;
+    right: 0;
+}
+.brand_prev i,
+.brand_next i{
+    color: #fff;
+}

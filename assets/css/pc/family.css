@@ -1,0 +1,73 @@
+/* 家居 */
+
+.family{
+    width: 1200px;
+    margin:0 auto;
+    margin-top: 30px;
+}
+.family .cate_title{
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.family  .cate_title i{
+    font-size: 50px;
+    color: #fe4854;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.family  .cate_title .cate_t{
+    font-size: 24px;
+    color:#444;
+}
+.family .cate_more{
+    float: right;
+    font-size: 14px;
+    color: #444;
+    margin-top: 10px;
+}
+.family_list ul li{
+    width: 296px;
+    height: 400px;
+    /*box-shadow: 3px 3px 6px rgba(0,0,0,0.15);*/
+    float: left;
+    margin-right: 5px;
+    overflow: hidden;
+    margin-bottom:12px;
+    border: 1px solid #f0f0f0;
+}
+.family_list ul li:hover{
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.15);
+}
+.family_list ul li:nth-of-type(4n){
+    margin-right: 0;
+}
+.family_pic{
+    height: 296px;
+    overflow: hidden;
+}
+.family_list img{
+    display: block;
+}
+.family_txt{
+    padding:22px 8px;
+}
+.family_txt h5{
+    font-size: 18px;
+    color: #444;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.family_txt p {
+    margin-top: 5px;
+}
+.family_txt p .hot_money{
+    font-size: 24px;
+    color:#fc453c;
+}
+.family_txt p .hot_original{
+    text-decoration:line-through;
+    margin-left: 20px;
+    color: #9d9d9d;
+    font-size: 14px;
+}

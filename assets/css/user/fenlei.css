@@ -1,0 +1,152 @@
+.business7 {
+    background-color:#fff;
+    margin-top: 0.15rem;
+}
+.business7 ul li {
+    display: flex;
+    justify-content: center;
+}
+
+.business7 ul li a div {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.business7 ul li a div p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border-radius: 50%;*/
+    /*border: 1px solid;*/
+    box-sizing: border-box;
+}
+
+.business7 ul li a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h5 {
+    margin: 0;
+    text-align: center;
+    font-weight: normal;
+    color: #9d9d9d;
+    /*padding: 0.2rem 0;*/
+}
+
+p {
+    margin: 0;
+}
+
+.business7 .business1-8 {
+    font-size: 0.26rem;
+    /*margin:0;*/
+    /*margin: 0.3rem 0;*/
+    display: flex;
+    justify-content: space-around;
+}
+
+.business7 .business1-8 li {
+    /*margin-bottom: 0.1rem;*/
+    width: 22%;
+}
+
+.business7 .business1-10 li {
+    margin-bottom: 0.1rem;
+    width: 20%;
+}
+
+.business7 .business1-3 li {
+    margin-bottom: 0.1rem;
+    width: 33%;
+}
+
+.business7 .business1-2 li {
+    margin-bottom: 0.1rem;
+    width: 50%;
+}
+
+.business7 .business1-8 li a div {
+    width: 1.5rem;
+    height: 1.5rem;
+    /*border: 2px solid;*/
+}
+
+.business7 .business1-10 li a div {
+    width: 1.3rem;
+    height: 1.3rem;
+    /*border: 2px solid;*/
+}
+
+.business7 .business1-3 li a div {
+    width: 2.3rem;
+    height: 2.3rem;
+    /*border: 2px solid;*/
+}
+
+.business7 .business1-2 li a div {
+    width: 3rem;
+    height: 3rem;
+    /*border: 2px solid;*/
+}
+
+.business7 .business1-8 li a div p {
+    width: 1.1rem;
+    height: 1.1rem;
+    /*background:red;*/
+}
+
+.business7 .business1-10 li a div p {
+    width: 0.9rem;
+    height: 0.9rem;
+}
+
+.business7 .business1-3 li a div p {
+    width: 2.1rem;
+    height: 2.1rem;
+}
+
+.business7 .business1-2 li a div p {
+    width: 2.8rem;
+    height: 2.8rem;
+}
+
+.business7 .business1-8 li a div p img {
+    width: 100%;
+}
+
+.business7 .business1-10 li a div p img {
+    width: 100%;
+}
+
+.business7 .business1-3 li a div p img {
+    width: 100%;
+}
+
+.business7 .business1-2 li a div p img {
+    width: 100%;
+}
+
+.business7 .business1-8 li a h5 {
+    width: 1.5rem;
+    font-size: 0.3rem;
+}
+
+.business7 .business1-10 li a h5 {
+    width: 1.3rem;
+    font-size: 0.26rem;
+}
+
+.business7 .business1-3 li a h5 {
+    width: 2.3rem;
+    font-size: 0.34rem;
+}
+
+.business7 .business1-2 li a h5 {
+    width: 3rem;
+    font-size: 0.4rem;
+}

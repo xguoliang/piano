@@ -1,0 +1,76 @@
+/* 热卖 */
+.hotsell{
+    width: 1200px;
+    margin:0 auto;
+    margin-top:30px;
+}
+.hotsell .cate_title{
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.hotsell  .cate_title i{
+    font-size: 50px;
+    color: #fe4854;
+    margin-right: 10px;
+    /*vertical-align: middle;*/
+    float:left;
+}
+.hotsell  .cate_title .cate_t{
+    font-size: 24px;
+    color:#444;
+    float:left;
+    line-height:52px;
+}
+.hotsell .cate_more{
+    float: right;
+    font-size: 14px;
+    color: #444;
+    margin-top: 10px;
+}
+.hotsell_img img{
+    display: block;
+}
+.hotsell_list{
+    margin-top: 15px;
+}
+.hotsell_list ul li{
+    width: 296px;
+    height: 400px;
+    /*box-shadow: 3px 3px 6px rgba(0,0,0,0.15);*/
+    float: left;
+    margin-right: 5px;
+}
+.hotsell_list ul li:nth-of-type(4n){
+    margin-right: 0;
+}
+.hotsell_list ul li .hot_img{
+    height: 296px;
+    overflow: hidden;
+}
+.hotsell_list ul li .hot_img img{
+    width: 100%;
+    display: block;
+}
+.hot_txt{
+    padding:15px 10px;
+}
+.hot_txt h5{
+    font-size: 18px;
+    color: #444;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.hot_txt p {
+    margin-top: 5px;
+}
+.hot_txt p .hot_money{
+    font-size: 24px;
+    color:#fc453c;
+}
+.hot_txt p .hot_original{
+    text-decoration:line-through;
+    margin-left: 20px;
+    color: #9d9d9d;
+    font-size: 14px;
+}

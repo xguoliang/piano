@@ -1,0 +1,87 @@
+.hotsell{
+    margin-top: 0.15rem;
+    background-color: #fff;
+}
+.hotsell_head{
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: .36rem;
+    font-weight: bold;
+    padding:0 0.2rem;
+}
+.hotsell_head img{
+    width: 0.4rem;
+    margin-right: 0.2rem;
+    vertical-align:-0.05rem;
+}
+.hotsell_banner img{
+    width: 100%;
+    display: block;
+}
+.hotsell .scgl-section {
+    width: 100%;
+    /*background:green;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    margin:0;
+    margin-top: 0.1rem;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+}
+
+.hotsell .scgl-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 3.5rem;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.hotsell .scgl-box div {
+    width: 0.5rem;
+    height: 0.5rem;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0.1rem;
+}
+.hotsell .scgl-box h5 {
+    font-size: 0.3rem;
+    color: #444444;
+    width: 3.7rem;
+    text-align: justify;
+    margin-top: 0.2rem;
+    margin-bottom: 0.1rem;
+    padding:0 0.1rem;
+
+}
+
+.hotsell .scgl-box p {
+    font-size: 0.3rem;
+    color: #fc453c;
+    padding-top: 0.1rem;
+    padding-bottom: 0.2rem;
+    padding:0 0.1rem;
+
+}
+
+.hotsell .scgl-box p span {
+    color: #9d9d9d;
+    font-size: 0.24rem;
+    text-decoration: line-through;
+    padding-left: 0.2rem;
+}
+
+.hotsell .scgl-box i {
+    width: 3.7rem;
+    height: 3.7rem;
+    display: flex;
+}
+
+.hotsell .scgl-box i img {
+    width: 100%;
+}

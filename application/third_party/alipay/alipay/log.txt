@@ -1,0 +1,3 @@
+2018-01-10 11:06:39  {"product_code":"FAST_INSTANT_TRADE_PAY","body":"购买商品2件共15.00元","subject":"测试","total_amount":null,"out_trade_no":null}
+2018-01-10 11:08:00  {"product_code":"FAST_INSTANT_TRADE_PAY","body":"购买商品2件共15.00元","subject":"测试","total_amount":0.01,"out_trade_no":"564216461351"}
+2018-01-10 11:09:29  {"product_code":"FAST_INSTANT_TRADE_PAY","body":"购买商品2件共15.00元","subject":"测试","total_amount":0.01,"out_trade_no":"564216461351"}
